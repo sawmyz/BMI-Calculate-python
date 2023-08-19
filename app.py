@@ -4,7 +4,7 @@ def index() :
     height = float(input("please send me your height(m) forexample=1.77 :"))
 
     bmi = weight / (height * height)   
-    print(f"your BMI id:{bmi}")
+    print(f"your BMI is:{bmi}")
     if bmi<18 : 
      print (f"Severe underweight")
 
